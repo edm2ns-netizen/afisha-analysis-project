@@ -1,0 +1,55 @@
+# Временные файлы
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.Python
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Данные и кэш
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+data/
+cache/
+
+# Конфиденциальные данные
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Логи
+*.log
+logs/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.jupyter/
+
+# Python
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+ENV.bak/
+
+# Выходные файлы
+output/
+results/
+reports/
